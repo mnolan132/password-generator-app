@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "PasswordGenerator",
+  "version": "2.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_logo": "padlock.png"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "icons": {
+    "32": "padlock.png"
+  }
+}
