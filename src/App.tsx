@@ -17,6 +17,7 @@ function App() {
       flexDirection={"column"}
       alignItems={"center"}
       backgroundColor={"#374151"}
+      padding={"15px"}
     >
       <Heading
         passwordStrings={passwordStrings}

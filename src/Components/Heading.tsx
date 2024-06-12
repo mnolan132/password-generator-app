@@ -52,7 +52,10 @@ const Heading: React.FC<HeadingProps> = ({
       <Button
         leftIcon={<Icon as={FaBolt} />}
         backgroundColor={"#34D399"}
-        color={"#D1D5DB"}
+        color={"#F9FAFB"}
+        fontSize={"xl"}
+        fontWeight={"600"}
+        textShadow={"3px"}
         onClick={generatePasswords}
       >
         Generate passwords

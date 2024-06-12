@@ -26,6 +26,7 @@ const PasswordOutputs: React.FC<PasswordOutputsProps> = ({
             justifyContent={"space-around"}
             alignItems={"center"}
             key={`password-${i}`}
+            margin="5px"
           >
             <Icon as={TbDots} />
           </Box>
